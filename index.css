@@ -1,0 +1,226 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 60px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;   
+}
+
+body {
+    margin: 0px}
+}
+
+main {
+   margin-top: 100px;
+
+}
+
+.sekcija {
+    border: 2 px black solid
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul {
+    padding: -10px;
+}
+header {
+    background-image: url(slike/background/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+    height: 100%;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+header ul {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+header li {
+    display: inline;
+    font-size: 25px;
+    border: white 1px dotted;
+    background: rgb(58, 55, 55);
+    padding: 10px;
+    color: cornsilk;
+}
+
+
+.kutija p {
+    font-size: 25px;
+    padding: 50px 50px;
+    margin-left: 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.kutija {
+    height: 400px;
+    width: 50%;
+    float: right;
+    font-size: 40 px;
+    text-align: center;
+}
+
+.kutija img {
+    padding: 40px;
+}
+
+.fix {
+float: none;
+padding-top: 10px;
+clear: both;
+
+}
+
+/* Kontakt*/
+.radno h4 {
+    font-size: 30px;
+    text-align: center;
+  
+}
+.radno {
+    margin: 20px 90px;;
+    float: right;
+    display: inline;
+    border: 2px solid rgb(75, 74, 74);
+    border-radius: 10px;
+    padding: 30px;
+    padding-right: -40px;
+    
+}
+.kontakt form {
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    margin: 20px;
+    margin-left: 30px;
+    float: left;
+    
+}
+
+.mapa {
+    display: inline;
+    margin-top: 50px;
+    margin: 50px;
+}
+   
+.kontakt label {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.kontakt input,
+.kontakt textarea {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    margin-top: 10px
+    margin-bottom: 20px;
+}
+.kontakt  textarea {
+    height: 120px;
+}
+.kontakt button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(190, 184, 184);
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(56, 56, 56);
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.kontakt button:hover {
+    cursor: pointer;
+    background-color: rgb(245, 199, 199)
+}
+
+
+.footer {
+    padding-top: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(slike/background/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+    color: black;
+    text-align: center;
+ }
+
+.social {
+    position: fixed;
+    right: 30px;
+    top: 80px;
+    display: flex;
+    padding: -100px; 
+}
+
+.social img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 500px -500px;
+        width: 40px;
+}
+
+/*Galerija*/
+
+div.gallery {
+    margin: 2px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1px;
+    text-align: center;
+  }
+
+
+/*Video*/  
+
+.video
+     {
+    padding-top: 50px;
+    padding-left: 250px;
+
+    
+
+
+
